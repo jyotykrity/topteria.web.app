@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>TopTeria | Restaurant, Café & Fresh Food in Patna</title>
+      <meta name="description" content="Patna में TopTeria से freshly prepared meals, Indian favourites, café snacks, refreshing beverages and desserts का आनंद लें।">
+      <meta name="keywords" content="TopTeria Patna, restaurant Patna, cafe Patna, food restaurant, Indian food, vegetarian food, non vegetarian food, snacks, beverages, desserts, fresh meals">
+      <link rel="icon" href="favicon.ico">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="canonical" href="https://topteria.web.app/">
+      <meta name="google-site-verification" content="537_IsdJgEVeatXz6fW_Lr9xCh8aQr8r9Zj-7z2ka6A" />
+   </head>
+   <body>
+      <!-- TOP BAR -->
+      <div class="topbar">
+         <div class="container topbar-inner">
+            <span>
+               <i class="fa-solid fa-location-dot"></i>Patna, Bihar </span>
+            <div class="top-right">
+               <a href="tel:+918825289435">
+                  <i class="fa-solid fa-phone"></i> 8825289435 </a>
+               <span>
+                  <i class="fa-solid fa-clock"></i> 6:00 AM – 11:00 PM </span>
+            </div>
+         </div>
+      </div>
+      <!-- HEADER -->
+      <header id="header">
+         <div class="container nav-container">
+            <a href="#top" class="logo">
+               <img src="images/logo.png" alt="TopTeria logo">
+               <div>
+                  <h2>TopTeria</h2>
+                  <span>Fresh Food, Rich Flavours</span>
+               </div>
+            </a>
+            <nav id="navbar">
+               <ul>
+                  <li class="dropdown">
+                     <a href="#services"> Food & Drinks <i class="fa-solid fa-angle-down"></i>
+                     </a>
+                     <ul class="submenu">
+                        <li>
+                           <a href="#services">Comfort</a>
+                        </li>
+                        <li class="dropdown">
+                           <a href="#services"> Flavours <i class="fa-solid fa-angle-right"></i>
+                           </a>
+                           <ul class="submenu">
+                              <li>
+                                 <a href="#services">Vegetarian</a>
+                              </li>
+                              <li>
+                                 <a href="#services">Non-Vegetarian</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="dropdown">
+                           <a href="#services"> Variety <i class="fa-solid fa-angle-right"></i>
+                           </a>
+                           <ul class="submenu">
+                              <li>
+                                 <a href="#services">Vegetarian</a>
+                              </li>
+                              <li>
+                                 <a href="#services">Non-Vegetarian</a>
+                              </li>
+                              <li>
+                                 <a href="#services">Quick Café Bites</a>
+                              </li>
+                              <li>
+                                 <a href="#services">Cool & Refreshing Drinks</a>
+                              </li>
+                              <li>
+                                 <a href="#services">Desserts & Sweet Favourites</a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="#about">Our Story</a>
+                  </li>
+                  <li>
+                     <a href="#contact">Find Us</a>
+                  </li>
+               </ul>
+            </nav>
+            <a href="https://wa.me/918825289435" class="quote-btn"> Order Food </a>
+            <button id="mobile-toggle" aria-label="Open menu">
+               <i class="fa-solid fa-bars"></i>
+            </button>
+         </div>
+      </header>
+      <!-- MOBILE BOTTOM SHEET MENU -->
+      <div id="mobile-overlay"></div>
+      <div id="mobile-menu">
+         <div class="sheet-handle"></div>
+         <ul>
+            <li class="mobile-dropdown">
+               <button class="mobile-dropdown-toggle"> Food & Drinks <i class="fa-solid fa-angle-down"></i>
+               </button>
+               <ul class="mobile-submenu">
+                  <li>
+                     <a href="#services">Comfort</a>
+                  </li>
+                  <li class="mobile-dropdown">
+                     <button class="mobile-dropdown-toggle"> Flavours <i class="fa-solid fa-angle-down"></i>
+                     </button>
+                     <ul class="mobile-submenu">
+                        <li>
+                           <a href="#services">Vegetarian</a>
+                        </li>
+                        <li>
+                           <a href="#services">Non-Vegetarian</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="mobile-dropdown">
+                     <button class="mobile-dropdown-toggle"> Variety <i class="fa-solid fa-angle-down"></i>
+                     </button>
+                     <ul class="mobile-submenu">
+                        <li>
+                           <a href="#services">Vegetarian</a>
+                        </li>
+                        <li>
+                           <a href="#services">Non-Vegetarian</a>
+                        </li>
+                        <li>
+                           <a href="#services">Quick Café Bites</a>
+                        </li>
+                        <li>
+                           <a href="#services">Cool & Refreshing Drinks</a>
+                        </li>
+                        <li>
+                           <a href="#services">Desserts & Sweet Favourites</a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <a href="#about">Our Story</a>
+            </li>
+            <li>
+               <a href="#contact">Find Us</a>
+            </li>
+            <li>
+               <a class="mobile-quote" href="https://wa.me/918825289435"> Order Food </a>
+            </li>
+         </ul>
+      </div>
+      <!-- HERO -->
+      <section class="hero" id="top">
+         <div class="container hero-content">
+            <span class="badge"> Restaurant & Café </span>
+            <h1>TopTeria</h1>
+            <h2> Restaurant & Café </h2>
+            <p> Fresh from Our Kitchen </p>
+            <p> हर प्लेट को बेहतर ingredients, balanced flavours और fresh preparation के साथ तैयार किया जाता है — सुबह की चाय से लेकर satisfying meals और sweet treats तक। </p>
+            <div class="hero-buttons">
+               <a href="https://wa.me/918825289435" class="btn-primary"> Order Food </a>
+               <a href="https://wa.me/918825289435" class="btn-secondary" target="_blank" rel="noopener"> Message Us Us </a>
+            </div>
+            <div class="hero-highlights">
+               <div>
+                  <i class="fa-solid fa-circle-check"></i> Freshly Prepared
+               </div>
+               <div>
+                  <i class="fa-solid fa-circle-check"></i> Balanced Food Options
+               </div>
+               <div>
+                  <i class="fa-solid fa-circle-check"></i> Indian & Global Flavours
+               </div>
+               <div>
+                  <i class="fa-solid fa-circle-check"></i> Meals, Bites & Drinks
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- SERVICES / MENU -->
+      <section class="services section" id="services">
+         <div class="container">
+            <div class="section-title">
+               <span>FOOD & DRINKS</span>
+               <h2> A Menu Made for Every Mood </h2>
+               <p> हल्के café bites से लेकर filling meals, regional favourites, international-inspired plates, cool beverages और desserts तक — अपने mood के हिसाब से कुछ नया चुनें। </p>
+            </div>
+            <div class="services-grid">
+               <!-- VEDIC -->
+               <div class="service-card">
+                  <i class="fa-solid fa-leaf"></i>
+                  <h3> Chef’s Comfort Plates </h3>
+                  <p> साफ-सुथरे flavours और carefully selected ingredients के साथ बने comforting dishes, जब आप simple और satisfying meal चाहते हैं। </p>
+               </div>
+               <!-- INDIAN VEG -->
+               <div class="service-card">
+                  <i class="fa-solid fa-seedling"></i>
+                  <h3> Vegetarian Indian Favourites </h3>
+                  <p> घर जैसे मसालों, familiar flavours और fresh preparation से बने vegetarian favourites — रोज़मर्रा के lunch या relaxed dinner के लिए। </p>
+               </div>
+               <!-- INDIAN NON VEG -->
+               <div class="service-card">
+                  <i class="fa-solid fa-drumstick-bite"></i>
+                  <h3> Indian Non-Veg Favourites </h3>
+                  <p> बोल्ड मसालों और satisfying textures के साथ तैयार non-vegetarian selections, Indian dining के पसंदीदा flavours को ध्यान में रखकर। </p>
+               </div>
+               <!-- FOREIGN VEG -->
+               <div class="service-card">
+                  <i class="fa-solid fa-bowl-food"></i>
+                  <h3> International Vegetarian Plates </h3>
+                  <p> हल्के, colourful और contemporary flavours से inspired vegetarian plates उन guests के लिए जो familiar से कुछ अलग try करना चाहते हैं। </p>
+               </div>
+               <!-- FOREIGN NON VEG -->
+               <div class="service-card">
+                  <i class="fa-solid fa-utensils"></i>
+                  <h3> International Non-Veg Plates </h3>
+                  <p> दुनिया भर के food ideas से inspired hearty non-vegetarian plates, नए flavours और satisfying portions के साथ। </p>
+               </div>
+               <!-- SNACKS -->
+               <div class="service-card">
+                  <i class="fa-solid fa-cookie-bite"></i>
+                  <h3> Quick Café Bites </h3>
+                  <p> चाय, बातचीत या छोटी भूख के लिए easy-to-enjoy bites — quick serving और satisfying taste के साथ। </p>
+               </div>
+               <!-- DRINKS -->
+               <div class="service-card">
+                  <i class="fa-solid fa-glass-water"></i>
+                  <h3> Cool & Refreshing Drinks </h3>
+                  <p> दिन के किसी भी समय के लिए chilled और refreshing beverage options, meals और snacks के साथ आसानी से pair होने वाले। </p>
+               </div>
+               <!-- DESSERTS -->
+               <div class="service-card">
+                  <i class="fa-solid fa-ice-cream"></i>
+                  <h3> Desserts & Sweet Favourites </h3>
+                  <p> मीठे cravings को पूरा करने के लिए tempting desserts और sweet bites — meal के बाद या अपने आप में एक छोटा treat। </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ABOUT / WHY US -->
+      <section class="why-us section" id="about">
+         <div class="container why-grid">
+            <div>
+               <span class="section-tag"> THE TOPTERIA EXPERIENCE </span>
+               <h2> Good Food, Welcoming Flavours & Everyday Comfort </h2>
+               <p> TopTeria को ऐसे dining spot के रूप में बनाया गया है जहाँ fresh food, familiar favourites और नए flavours एक सहज, welcoming experience में मिलते हैं। </p>
+               <p> हमारा menu अलग-अलग appetites और occasions को ध्यान में रखता है — wholesome meals, vegetarian choices, non-veg favourites, café bites, beverages और desserts के साथ। </p>
+               <ul class="check-list">
+                  <li>
+                     <i class="fa-solid fa-circle-check"></i> Fresh Kitchen Preparation
+                  </li>
+                  <li>
+                     <i class="fa-solid fa-circle-check"></i> Balanced Food Options
+                  </li>
+                  <li>
+                     <i class="fa-solid fa-circle-check"></i> Varied Culinary Choices
+                  </li>
+                  <li>
+                     <i class="fa-solid fa-circle-check"></i> From Meals to Sweet Bites
+                  </li>
+               </ul>
+            </div>
+            <!-- HIGHLIGHTS -->
+            <div class="stats-box">
+               <div class="stat">
+                  <h2> Fresh </h2>
+                  <p> Kitchen-to-Table Care </p>
+               </div>
+               <div class="stat">
+                  <h2> Comfort </h2>
+                  <p> Familiar Favourites </p>
+               </div>
+               <div class="stat">
+                  <h2> Flavours </h2>
+                  <p> Rich Indian Taste </p>
+               </div>
+               <div class="stat">
+                  <h2> Variety </h2>
+                  <p> Food & Drinks </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- PROCESS -->
+      <section class="process section">
+         <div class="container">
+            <div class="section-title">
+               <span> YOUR VISIT, MADE EASY </span>
+               <h2> Choose, Order & Enjoy </h2>
+            </div>
+            <div class="process-grid">
+               <div class="step">
+                  <span> 01 </span>
+                  <h3> Pick Your Favourites </h3>
+                  <p> हमारे menu में meals, vegetarian and non-vegetarian plates, café bites, beverages और desserts देखें और अपनी craving के अनुसार चुनें। </p>
+               </div>
+               <div class="step">
+                  <span> 02 </span>
+                  <h3> Send Your Order </h3>
+                  <p> अपनी पसंद की items चुनें और order के लिए हमारी team से WhatsApp या उपलब्ध ordering option के माध्यम से जुड़ें। </p>
+               </div>
+               <div class="step">
+                  <span> 03 </span>
+                  <h3> Relax & Enjoy </h3>
+                  <p> आपका food तैयार होने के बाद बैठकर, साथियों के साथ या अपने दिन के बीच आराम से हर bite और sip का आनंद लें। </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- CTA -->
+      <section class="cta">
+         <div class="container">
+            <h2> What Are You Craving Today? </h2>
+            <p> एक satisfying meal, quick bite, refreshing drink या मीठा treat चुनें और TopTeria के kitchen से अपने अगले food moment को खास बनाएं। </p>
+            <a href="#OrderNow" class="btn-primary"> Order Food </a>
+         </div>
+      </section>
+      <!-- CONTACT -->
+      <section class="contact section" id="contact">
+         <div class="container">
+            <div class="section-title">
+               <span> VISIT OR CONTACT US </span>
+               <h2> Let’s Talk Food </h2>
+               <p> Menu, orders, timings, availability या dining experience के बारे में जानना हो तो हमारी team से सीधे संपर्क करें। </p>
+            </div>
+            <div class="contact-grid">
+               <!-- CONTACT INFORMATION -->
+               <div class="contact-info">
+                  <div class="info-box">
+                     <i class="fa-solid fa-location-dot"></i>
+                     <div>
+                        <h3> Visit Us </h3>
+                        <p> Anishabad, <br> Anishabad, Patna, Bihar </p>
+                     </div>
+                  </div>
+                  <div class="info-box">
+                     <i class="fa-solid fa-phone"></i>
+                     <div>
+                        <h3> Call the Restaurant </h3>
+                        <a href="tel:+918825289435"> 8825289435 </a>
+                     </div>
+                  </div>
+                  <div class="info-box">
+                     <i class="fa-brands fa-whatsapp"></i>
+                     <div>
+                        <h3> Message Us </h3>
+                        <a href="https://wa.me/918825289435" target="_blank" rel="noopener"> Start a WhatsApp Chat </a>
+                     </div>
+                  </div>
+                  <div class="info-box">
+                     <i class="fa-solid fa-clock"></i>
+                     <div>
+                        <h3> Restaurant Hours </h3>
+                        <p> Daily <br> 6:00 AM – 11:00 PM </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- WORK WITH US FORM -->
+               <div class="contact-form" id="OrderNow">
+                  <h3> Join the Team </h3>
+                  <p> Food service, kitchen operations या hospitality में अवसर तलाश रहे हैं? अपनी details और रुचि हमारे साथ साझा करें। </p>
+                  <form id="contactForm">
+                     <input type="text" name="name" placeholder="Your Name" required>
+                     <input type="tel" name="phone" placeholder="Phone Number" required>
+                     <input type="text" name="city" placeholder="Your City">
+                     <input type="text" name="position" placeholder="Position You’re Interested In">
+                     <textarea name="message" rows="6" placeholder="Share your experience, skills and the kind of role you would like to explore with TopTeria"></textarea>
+                     <button type="submit" class="btn-primary"> Send Your Details </button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- FOOTER -->
+      <footer>
+         <div class="container footer-grid">
+            <!-- BRAND -->
+            <div>
+               <img src="images/logo.png" class="footer-logo" alt="TopTeria Restaurant & Café">
+               <p> A welcoming Patna food destination for satisfying meals, café bites, refreshing drinks and desserts, with a menu built around variety, freshness and flavour. </p>
+            </div>
+            <!-- QUICK LINKS -->
+            <div>
+               <h3> Explore TopTeria </h3>
+               <ul>
+                  <li>
+                     <a href="#services"> Food & Drinks </a>
+                  </li>
+                  <li>
+                     <a href="#about"> Our Story </a>
+                  </li>
+                  <li>
+                     <a href="#contact"> Find Us </a>
+                  </li>
+               </ul>
+            </div>
+            <!-- CONNECT -->
+            <div>
+               <h3> Stay Connected </h3>
+               <div class="social-icons">
+                  <a href="https://www.facebook.com/TopTeria.Eats/" target="_blank" rel="noopener" aria-label="TopTeria on Facebook">
+                     <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.youtube.com/@TopTeria/" target="_blank" rel="noopener" aria-label="TopTeria on YouTube">
+                     <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/Top.Teria/" target="_blank" rel="noopener" aria-label="TopTeria on Instagram">
+                     <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://x.com/Top_Teria/" target="_blank" rel="noopener" aria-label="TopTeria on Twitter">
+                     <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/TopTeria/" target="_blank" rel="noopener" aria-label="TopTeria on LinkedIn">
+                     <i class="fab fa-linkedin"></i>
+                  </a>
+               </div>
+               <p class="footer-contact">
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+918825289435"> 8825289435 </a>
+               </p>
+               <p class="footer-contact">
+                  <i class="fa-solid fa-clock"></i> 6:00 AM – 11:00 PM
+               </p>
+            </div>
+         </div>
+         <div class="copyright"> &copy; 2026 TopTeria | Restaurant & Café | All Rights Reserved. </div>
+      </footer>
+      <!-- FLOATING WHATSAPP -->
+      <a href="https://wa.me/918825289435" class="whatsapp" target="_blank" rel="noopener" aria-label="Message Us TopTeria">
+         <i class="fab fa-whatsapp"></i>
+      </a>
+      <!-- BACK TO TOP -->
+      <button id="topBtn" aria-label="Back to top">
+         <i class="fa-solid fa-arrow-up"></i>
+      </button>
+      <script src="js/script.js"></script>
+   </body>
+</html>
