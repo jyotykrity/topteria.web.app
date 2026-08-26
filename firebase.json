@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site":"topteria",
+    "site": "topteria",
     "public": "public",
     "ignore": [
       "firebase.json",
