@@ -112,7 +112,7 @@ header { background: var(--white); box-shadow: var(--shadow); position: sticky; 
 .mobile-quote { color: var(--white) !important; background: var(--emerald) !important; text-align: center !important; border-radius: 8px; margin-top: 10px; font-weight: 600; border-bottom: none !important; }
 
 /* ===== HERO (centered) ===== */
-.hero { background: linear-gradient(135deg, var(--charcoal-dark), var(--charcoal)); color: var(--white); padding: 100px 0; text-align: center; }
+.hero { background: linear-gradient(180deg, #5c2f57, var(--charcoal)); color: var(--white); padding: 100px 0; text-align: center; }
 .hero-content { max-width: 750px; margin: 0 auto; }
 .badge { display: inline-block; background: rgba(15,157,110,0.2); color: var(--emerald-light); padding: 6px 16px; border-radius: 8px; font-size: 0.8rem; font-weight: 600; margin-bottom: 15px; }
 .hero-text h1, .hero-content h1 { font-size: 2.6rem; margin-bottom: 15px; line-height: 1.3; font-weight: 700; }
@@ -147,7 +147,7 @@ header { background: var(--white); box-shadow: var(--shadow); position: sticky; 
 .step p { color: var(--text-muted); font-size: 0.95rem; }
 
 /* ===== CTA ===== */
-.cta { background: linear-gradient(135deg, var(--charcoal), var(--charcoal-dark)); color: var(--white); text-align: center; padding: 60px 0; }
+.cta { background: linear-gradient(180deg, #5c2f57, var(--charcoal-dark)); color: var(--white); text-align: center; padding: 60px 0; }
 .cta h2 { font-size: 1.8rem; margin-bottom: 10px; }
 .cta p { opacity: 0.85; margin-bottom: 25px; }
 
@@ -165,7 +165,7 @@ header { background: var(--white); box-shadow: var(--shadow); position: sticky; 
 .contact-form input:focus, .contact-form textarea:focus { outline: 2px solid var(--emerald); }
 
 /* ===== FOOTER ===== */
-footer { background: var(--charcoal-dark); color: rgba(255,255,255,0.75); padding: 50px 0 0; }
+footer { background: linear-gradient(180deg, #5c2f57, var(--charcoal-dark)); color: rgba(255,255,255,0.75); padding: 50px 0 0; }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; padding-bottom: 30px; }
 .footer-logo { width: 50px; margin-bottom: 15px; }
 footer h3 { color: var(--white); margin-bottom: 15px; font-size: 1rem; }
