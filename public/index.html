@@ -440,5 +440,9 @@
          <i class="fa-solid fa-arrow-up"></i>
       </button>
       <script src="js/script.js"></script>
+      <script>if ('serviceWorker' in navigator) {
+                  navigator.serviceWorker.register('/service-worker.js'); // Ensure this matches exactly!
+                  }
+      </script>
    </body>
 </html>
