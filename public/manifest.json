@@ -3,17 +3,17 @@
 "short_name":"TopTeria",
 "start_url":"/",
 "display":"standalone",
-"background_color":"#ffffff",
-"theme_color":"#111111",
+"background_color":"#451f9b",
+"theme_color":"#fb9a31",
 "icons":[
 {
-"src":"images/logo-512x512.png",
+"src":"images/icon-512x512.png",
 "sizes":"512x512",
 "type":"image/png",
 "purpose": "any maskable"
 },
 {
-"src":"images/logo-192x192.png",
+"src":"images/icon-192x192.png",
 "sizes":"192x192",
 "type":"image/png"
 }
