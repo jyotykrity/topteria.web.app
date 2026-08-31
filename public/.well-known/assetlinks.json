@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.topteria.com",
+      "sha256_cert_fingerprints": [
+        "8A:6F:82:80:DA:B3:9C:A9:68:9F:0B:9E:17:6C:A7:C2:CF:23:4F:BC:0E:2E:87:33:3E:D5:8C:D7:AD:24:21:1E"
+      ]
+    }
+  }
+]
